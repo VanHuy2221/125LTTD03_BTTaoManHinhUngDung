@@ -2,20 +2,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
 
-    <TextView
-        android:id="@+id/tv_title"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/edtHoTen"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Đây là giao diện 1"
-        android:textSize="24sp"
-        android:layout_marginBottom="20dp"/>
+        android:hint="Nhập họ tên"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/edtMaSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mã sinh viên"
+        android:layout_marginBottom="16dp"
+        android:inputType="text"/>
 
     <Button
-        android:id="@+id/btnChuyen"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnDangNhap"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Chuyển sang giao diện 2"/>
+        android:text="Đăng nhập"/>
 </LinearLayout>

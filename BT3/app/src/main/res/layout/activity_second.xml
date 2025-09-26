@@ -3,19 +3,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="20dp">
 
     <TextView
-        android:id="@+id/tv_second"
+        android:id="@+id/tvHoTen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Đây là giao diện 2"
-        android:textSize="24sp"
+        android:text="Họ tên:"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvMaSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã sinh viên:"
+        android:textSize="20sp"
         android:layout_marginBottom="20dp"/>
 
     <Button
-        android:id="@+id/btnBack"
+        android:id="@+id/btnTroVe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quay lại"/>
+        android:text="Trở về"/>
 </LinearLayout>
